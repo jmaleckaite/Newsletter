@@ -45,16 +45,27 @@ export default class PopUp extends Component {
             &times;
           </span>
           <form>
+		  <label>
             <h3>ISCRIZIONE ALLE NEWSLETTER</h3>
-            <label>
+			</label>
+            /** <label>
              <ol>
 			 <li>Le Notizie del Portale <input type="checkbox" /></li>
 			 <li>Gli eventi e le Notizie della Cultura <input type="checkbox" /></li>
 			 <li>Gli eventi e le Notizie del centro per le famiglie <input type="checkbox" /></li>
 			 </ol>
             </label>
-            <br />
+			
+            <br /> **/
+			<label>
+			<span>Le Notizie del Portale</span>
+			<input type="checkbox" />
+			<span>Gli eventi e le Notizie della Cultura</span>
+			<input type="checkbox" />
+			<span>Gli eventi e le Notizie del centro per le famiglie</span>
+			<input type="checkbox" />
             <input type="submit" value="Subscribe"/>
+			</label>
           </form>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import PopUp from "./PopUp";
 
 
+
 export default class App extends React.Component {
   state = {
     seen: false
@@ -12,6 +13,8 @@ export default class App extends React.Component {
       seen: !this.state.seen
     });
   };
+  
+
 
   render() {
     return (
