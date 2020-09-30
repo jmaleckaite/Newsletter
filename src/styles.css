@@ -17,24 +17,66 @@ body {
 }
 
 button {
-  border-radius: 7px;
+  border-radius: 4px;
   background-color: #0C71E0;
   outline: none;
   margin-top: 20%;
   margin-left: 50%;
+  padding: 14px 40px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: white;
+  color: #0C71E0;
 }
 
 input[type=submit] {
 	background-color: #0C71E0;
-	border-radius: 7px;
-	margin-left: 39%;
+	border-radius: 4px;
+	padding: 8px 20px;
+	color: white;
+	font-family: 'Roboto';
+	transition-duration: 0.2s;
 	cursor: pointer;
+	margin: 10px 10px 10px 10px;
 }
 
+div.submitWrapper {
+	text-align: center;
+}
+
+div.popUpHeader {
+	color: #293ace;
+	text-align: center;
+	font-family: 'Roboto';
+	
+}
+
+div.separator {
+	height: 100%;
+	width: 1px;
+	background: gray;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	left: 50%;
+}
+
+div.listOfChannels {
+	color: gray;
+	font-family: 'Roboto';
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+hr.solid {
+	border-top: 1px solid #293ace;
+}
 
 .modal {
   position: fixed;
@@ -42,6 +84,7 @@ input[type=submit] {
   width: 100%;
   height: 100%;
   background-color: white;
+  display: block;
 }
 
 .modal_content {
@@ -53,6 +96,7 @@ input[type=submit] {
   padding: 20px;
   border-radius: 5px;
   border: 2px solid black;
+  display: block;
 }
 
 
