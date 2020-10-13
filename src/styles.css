@@ -16,6 +16,15 @@ body {
   left: 42%;
 }
 
+.div.wrapper {
+	 height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
 button {
   border-radius: 4px;
   background-color: #0C71E0;
