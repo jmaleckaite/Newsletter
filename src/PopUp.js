@@ -129,7 +129,6 @@ interface IState {
 	      <Unsub />
           </Route>
 		  </Router>
-		  
 		  </Modal.Actions>
 		  </Form>
 		  </Modal.Content>

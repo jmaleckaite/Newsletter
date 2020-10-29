@@ -40,8 +40,6 @@ class Unsubscribe extends Component<{}, IState> {
 		} = this.state
 		
 		return (
-		<div className="modal">
-
 		<Form onSubmit={this.handleSubmit}>
 		<Header as='h3'>Seleziona le newsletter a cui desideri annullare l'iscrizione</Header>
 		<div className="grouped fields">
@@ -82,12 +80,10 @@ class Unsubscribe extends Component<{}, IState> {
 		  </div>
 		  </Form.Field>
 		  </div>
-		<div class='submitWrapper'>   
+		  <div class='submitWrapper'>   
 			<Form.Button type='submit' color='blue'>Unsubscribe</Form.Button>
 			</div>
 			</Form>
-
-			</div>
 			);
 	}
 }
